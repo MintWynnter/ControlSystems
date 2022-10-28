@@ -43,6 +43,8 @@
     ]
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.2.5",
+    "@types/react-bootstrap": "^0.32.31",
     "gh-pages": "^4.0.0"
   },
   "homepage": "http://MintWynnter.github.io/ControlSystems"
