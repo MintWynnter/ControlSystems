@@ -18,14 +18,6 @@ export function routh_table(cheq: func): number[][]{
         }
         tab = [...tab, r];
     }
-    //console.log(tab);
-    /*tab = tab.map((row: number[], i: number): number[] => {
-        if(i === 0 || i === 1){return row;}
-        else{return row.slice(0, -1).map((x: number, j: number): number =>{
-            //console.log(-1 * (determinant({m: [[tab[i-2][0], tab[i-2][j]], [tab[i-1][0], tab[i-1][j]]]}) / tab[i-1][0]));
-            return (-1 * (determinant({m: [[tab[i-2][0], tab[i-2][j+1]], [tab[i-1][0], tab[i-1][j+1]]]}) / tab[i-1][0]) || 0);
-        })}
-    });*/
     console.log(tab);
     return tab;
 }
